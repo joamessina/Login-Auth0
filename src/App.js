@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1> App</h1>
+      <h1>My Login/Logout App Tutorial</h1>
       {
         isAuthenticated ? <LogoutButton/> : <LoginButton/>
       }
